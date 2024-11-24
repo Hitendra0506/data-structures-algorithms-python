@@ -33,7 +33,7 @@ class LinkedList:
 
         curr = self.head
 
-        while(curr is not None):
+        while curr is not None:
             print(curr.value)
             curr = curr.next
 
