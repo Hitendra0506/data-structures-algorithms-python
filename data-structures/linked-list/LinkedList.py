@@ -85,5 +85,8 @@ class LinkedList:
         self.head = self.head.next
         self.length -= 1
 
+        if self.length == 0:
+            self.tail = None
+
         return popped_node
 
